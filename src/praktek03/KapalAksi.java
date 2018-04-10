@@ -6,7 +6,7 @@ public class KapalAksi {
          k.setMerk("Titanic");
          k.setWarna("Hitam");
          k.setHarga(1500);
-         
+        //gak bisa k.setJenisKapal();
          k.cetakInfo();
          
          System.out.println("Merknya \t: ");
@@ -15,5 +15,14 @@ public class KapalAksi {
          System.out.println(k.getWarna());
          System.out.println("Harganya \t: ");
          System.out.println(k.getHarga());
+         
+         KapalSelam ks = new KapalSelam();
+         ks.setMerk("Hirusama");
+         ks.setWarna("Hijau");
+         ks.setHarga(15000);
+         ks.setJenisKapal("Solar");
+         ks.cetakInfo();
+         System.out.println("Jenis \t:"+ks.getJenisKapal());
+         ks.throttle();
     }
 }
