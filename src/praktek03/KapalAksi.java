@@ -8,5 +8,12 @@ public class KapalAksi {
          k.setHarga(1500);
          
          k.cetakInfo();
+         
+         System.out.println("Merknya \t: ");
+         System.out.println(k.getMerk());
+         System.out.println("Warnanya \t: ");
+         System.out.println(k.getWarna());
+         System.out.println("Harganya \t: ");
+         System.out.println(k.getHarga());
     }
 }
